@@ -385,7 +385,7 @@ module.exports = function (grunt) {
             grunt.task.run([
                 'clean:server',
                 'concurrent:test',
-                'autoprefixer',
+                'autoprefixer'
             ]);
         }
 
@@ -414,5 +414,10 @@ module.exports = function (grunt) {
         'newer:jshint',
         'test',
         'build'
+    ]);
+
+    grunt.registerTask('deploy', [
+        'build',
+        'gh-pages'
     ]);
 };
