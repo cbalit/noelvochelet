@@ -308,6 +308,7 @@ module.exports = function (grunt) {
                         '{,*/}*.html',
                         'styles/fonts/{,*/}*.*',
                         'scripts/map.js',
+                        'CNAME',
                         'bower_components/sass-bootstrap/fonts/*.*'
                     ]
                 }]
