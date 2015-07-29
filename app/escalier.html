@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>noelvochelet</title>
+        <title>Menuiserie Vochelet</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -18,40 +18,34 @@
 
     </head>
     <body>
-        <!--[if lt IE 10]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
-
         <div class="container">
             <div class="header">
                 <ul class="nav nav-pills pull-right">
                     <li><a href="index.html">Accueil</a></li>
                     <li><a href="entreprise.html">L'entreprise</a></li>
-                    <li><a href="realisations.html">Réalisations</a></li>
-                    <li class="active"><a href="contact.html">Contact</a></li>
+                    <li class="active"><a href="realisations.html">Réalisations</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
                 <h3 class="text-muted"><img src="images/logo.png"> Menuiserie Vochelet</h3>
             </div>
 
-            <div class="jumbotron contact">
-                <p>
-                    L'entreprise travaille essentiellement dans le département 27, mais aussi dans les départements voisins et en Région parisienne.
-                </p>
-                <h1>Nous contacter:</h1>
-                <p>Noel Vochelet</p>
-                <p>10 route de la mare</p>
-                <p>27580 Bourth</p>
-                <p><span class="glyphicon glyphicon-phone-alt"></span><a href="tel:0232326020">02 32 32 60 20</a></p>
-                <p><span class="glyphicon glyphicon-earphone"></span><a href="tel:0683152888">06 83 15 28 88</a></p>
-                <p><span class="glyphicon glyphicon-envelope"></span><a href="mailto:noelvochelet@orange.fr">un email ?</a></p>
-                <p><span class="glyphicon glyphicon-print"></span>02 32 58 27 84</p>
-            </div>
+            <div class="row">
+                <h1>Escalier, parquet</h1>
+                <div class="back">
+                    <a  href="realisations.html"><span class="glyphicon glyphicon-arrow-left"></span>Autres réalisations</a>
+                </div>
 
-
-
-            <div class="row marketing">
-                <div id="map-container" class="col-md-6"></div>
+                <div class="galleria">
+                    <img src="images/escalier/01c3fa.jpg">
+                    <img src="images/escalier/01d0d68.jpg">
+                    <img src="images/escalier/01d432fe.jpg">
+                    <img src="images/escalier/01e7af.jpg">
+                    <img src="images/escalier/010d81.jpg">
+                    <img src="images/escalier/017eb41.jpg">
+                    <img src="images/escalier/DSC00154.JPG">
+                    <img src="images/escalier/escalierHoltzhausserAvant.JPG">
+                    <img src="images/escalier/escalierHoltzhausserApres.JPG">
+                </div>
             </div>
 
             <div class="footer">
@@ -61,11 +55,14 @@
         </div>
 
 
-        <!-- build:js scripts/vendor.js -->
+        <!-- build:js scripts/vendor2.js -->
         <!-- bower:js -->
         <script src="bower_components/jquery/jquery.js"></script>
+        <script src="bower_components/galleria/src/galleria.js"></script>
         <!-- endbower -->
         <!-- endbuild -->
+
+        <script src="scripts/gallery.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
@@ -76,14 +73,5 @@
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X');ga('send','pageview');
         </script>
-
-        <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
-
-        <script src="scripts/map.js"></script>
-
-
-        <!-- build:js scripts/plugins.js -->
-        <script src="bower_components/sass-bootstrap/js/tab.js"></script>
-        <!-- endbuild -->
 </body>
 </html>
