@@ -284,9 +284,9 @@ module.exports = function (grunt) {
                         'styles/fonts/{,*/}*.*',
                         'scripts/map.js',
                         'scripts/gallery.js',
-                        'scripts/galleria/**/*.*',
                         'CNAME',
-                        'bower_components/sass-bootstrap/fonts/*.*'
+                        'bower_components/sass-bootstrap/fonts/*.*',
+                        'bower_components/galleria/**/*.*'
                     ]
                 }]
             },
