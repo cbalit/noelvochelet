@@ -46,18 +46,20 @@
                 </div>
             </nav>
 
-            <div class="jumbotron contact">
+            <div class="jumbotron contact" itemscope itemtype="http://schema.org/Person">
                 <p>
                     L'entreprise travaille essentiellement dans le département 27, mais aussi dans les départements voisins et en Région parisienne.
                 </p>
                 <h1>Nous contacter:</h1>
-                <p>Noel Vochelet</p>
-                <p>10 route de la mare</p>
-                <p>27580 Bourth</p>
-                <p><span class="glyphicon glyphicon-phone-alt"></span><a href="tel:0232326020">02 32 32 60 20</a></p>
+                <p itemprop="name">Noel Vochelet</p>
+                <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                    <p itemprop="streetAddress">10 route de la mare</p>
+                    <p><span itemprop="postalCode">27580</span> <span itemprop="addressLocality">Bourth</span></p>
+                </div>
+                <p><span class="glyphicon glyphicon-phone-alt"></span><a itemprop="telephone" href="tel:0232326020">02 32 32 60 20</a></p>
                 <p><span class="glyphicon glyphicon-earphone"></span><a href="tel:0683152888">06 83 15 28 88</a></p>
-                <p><span class="glyphicon glyphicon-envelope"></span><a href="mailto:noelvochelet@orange.fr">un email ?</a></p>
-                <p><span class="glyphicon glyphicon-print"></span>02 32 58 27 84</p>
+                <p><span class="glyphicon glyphicon-envelope"></span><a itemprop="email" href="mailto:noelvochelet@orange.fr">un email ?</a></p>
+                <p><span class="glyphicon glyphicon-print"></span><span itemprop="faxNumber">02 32 58 27 84</span></p>
             </div>
 
 
