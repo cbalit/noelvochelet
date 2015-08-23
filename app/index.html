@@ -13,7 +13,6 @@
     <title>Menuiserie Vochelet</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
-    <link href='http://fonts.googleapis.com/css?family=Marvel' rel='stylesheet' type='text/css'>
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
@@ -22,15 +21,28 @@
 </head>
 <body>
 <div class="container">
-    <div class="header">
-        <ul class="nav nav-pills pull-right">
-            <li class="active"><a href="#">Accueil</a></li>
-            <li><a href="entreprise.html">L'entreprise</a></li>
-            <li><a href="realisations.html">Réalisations</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <h3 class="text-muted"><img class="logo" src="images/logo.png"> Menuiserie Vochelet</h3>
-    </div>
+    <nav class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Menu</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Menuiserie Vochelet</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Accueil</a></li>
+                    <li><a href="entreprise.html">L'entreprise</a></li>
+                    <li><a href="realisations.html">Réalisations</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
 
     <div class="description">
         <p>
@@ -91,7 +103,7 @@
             </div>
             <div class="item">
                 <a href="ebenisterie.html">
-                    <img src="images/ebenisterie/SEJOUR_VOCHELET_7.jpg" alt="ébénisterie">
+                    <img src="images/ebenisterie/IMG_0993.jpg" alt="ébénisterie">
 
                     <div class="carousel-caption">
                         Ebénisterie
@@ -100,7 +112,7 @@
             </div>
             <div class="item">
                 <a href="charpente.html">
-                    <img src="images/charpente/DSC00065.jpg" alt="charpente">
+                    <img src="images/charpente/IMG_1012.jpg" alt="charpente">
 
                     <div class="carousel-caption">
                         Charpente traditionnelle
@@ -128,7 +140,7 @@
             <div class="col-sm-1 col-md-4 col-lg-4">
                 <img class="img-circle" src="images/map.png" width="140" height="140" alt="carte">
                 <h2>Mobilité</h2>
-                <p>Nous intervenons dans le département 27, les départements voisins et en Région parisienne</p>
+                <p>Nous intervenons dans un large rayon de l'Eure jusqu'en Région parisienne</p>
                 <p><a href="contact.html" class="btn btn-default" role="button">En savoir plus >></a></p>
             </div>
             <div class="col-sm-1 col-md-4 col-lg-4">
@@ -179,6 +191,7 @@
 <!-- build:js scripts/plugins.js -->
 <script src="bower_components/sass-bootstrap/js/transition.js"></script>
 <script src="bower_components/sass-bootstrap/js/carousel.js"></script>
+<script src="bower_components/sass-bootstrap/js/collapse.js"></script>
 <!-- endbuild -->
 </body>
 </html>

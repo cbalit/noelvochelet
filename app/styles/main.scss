@@ -2,6 +2,12 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 
 @import 'sass-bootstrap/lib/bootstrap';
 
+@font-face {
+    font-family: 'Marvel';
+    src: url("fonts/Marvel-Regular.ttf");
+}
+
+
 .browsehappy {
     margin: 0.2em 0;
     background: #ccc;
@@ -44,6 +50,8 @@ body {
 .header .nav {
     margin-top: 10px;
 }
+
+
 /* Custom page footer */
 .footer {
     padding-top: 19px;
@@ -105,11 +113,10 @@ body {
 }
 
 .summary{
+    font-family: 'Marvel', sans-serif;
+    font-size: 20px;
     margin-top: 20px;
-    padding: 0px;
-}
-.summary .thumbnail{
-    min-height: 450px;
+    padding: 0;
 }
 
 .summary .col-lg-4 {
@@ -121,9 +128,6 @@ body {
     height: 400px;
 }
 
-ul.feature{
-    list-style-type: none;
-}
 
 
 /* GENERIC CONTENT */
@@ -139,6 +143,15 @@ ul.feature{
 
 img.realisation {
     width: 100%;
+}
+
+.realisations .thumbnail{
+    height: 185px;
+    text-align: center;
+}
+
+.realisations .thumbnail img{
+margin-bottom: 5px;
 }
 
 .galleria{

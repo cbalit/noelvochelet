@@ -20,15 +20,27 @@
 </head>
 <body>
 <div class="container">
-    <div class="header">
-        <ul class="nav nav-pills pull-right">
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="entreprise.html">L'entreprise</a></li>
-            <li class="active"><a href="realisations.html">Réalisations</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <h3 class="text-muted"><img class="logo" src="images/logo.png">Menuiserie Vochelet</h3>
-    </div>
+    <nav class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Menu</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Menuiserie Vochelet</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="entreprise.html">L'entreprise</a></li>
+                    <li class="active"><a href="#">Réalisations</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <div class="realisation">
         <h1>Agencement</h1>
@@ -53,12 +65,19 @@
             <img src="images/agencement/DSC00485.jpg">
             <img src="images/agencement/P1010605.jpg">
             <img src="images/agencement/cuisineGRENECHE5.jpg">
+            <img src="images/agencement/01d295.jpg">
+            <img src="images/agencement/012cfc.jpg">
+            <img src="images/agencement/014603.jpg">
+            <img src="images/agencement/IMG_0024.jpg">
+            <img src="images/agencement/IMG_0064.jpg">
+            <img src="images/agencement/IMG_0068.jpg">
+            <img src="images/agencement/IMG_0211.jpg">
+            <img src="images/agencement/IMG_0225.jpg">
+            <img src="images/agencement/IMG_0796.jpg">
         </div>
     </div>
 
-    <div class="footer">
 
-    </div>
 
 </div>
 
@@ -84,6 +103,12 @@
     ga('send', 'pageview');
 
 </script>
+
+<!-- build:js scripts/plugins.js -->
+<script src="bower_components/sass-bootstrap/js/transition.js"></script>
+<script src="bower_components/sass-bootstrap/js/carousel.js"></script>
+<script src="bower_components/sass-bootstrap/js/collapse.js"></script>
+<!-- endbuild -->
 
 </body>
 </html>
