@@ -150,6 +150,11 @@ img.realisation {
     text-align: center;
 }
 
+@media screen and (max-width: 768px) {
+    .realisations .thumbnail{
+        height: 155px;
+    }
+}
 .realisations .thumbnail img{
 margin-bottom: 5px;
 }
