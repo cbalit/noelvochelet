@@ -155,12 +155,19 @@ img.realisation {
         height: 155px;
     }
 }
+
 .realisations .thumbnail img{
 margin-bottom: 5px;
 }
 
 .galleria{
-    height: 600px;
+    height: 400px;
+}
+
+@media screen and (min-width: 768px) {
+    .galleria{
+        height: 600px;
+    }
 }
 
 .back{
